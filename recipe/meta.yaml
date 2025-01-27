@@ -1,5 +1,5 @@
 {% set name = "liffile" %}
-{% set version = "2025.1.25" %}
+{% set version = "2025.1.26" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/liffile-{{ version }}.tar.gz
-  sha256: 71316e8517620362dade7f70b076080a9dccb3880c15aa6c8ecd4a76d2c331d3
+  sha256: a3c53b64bf81692f988c83ecd5f7597ad1c0d77854344d85d4abd8028cf142e4
 
 build:
   entry_points:
@@ -28,7 +28,7 @@ requirements:
     - tifffile >=2024.8.30
     - xarray >=2023.4.0
     - matplotlib-base >=3.7.0
-    
+
 test:
   imports:
     - liffile
