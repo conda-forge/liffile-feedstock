@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
-    - imagecodecs >= 2024.12.30
+    - imagecodecs >=2024.12.30
     - tifffile >=2024.8.30
     - xarray >=2023.4.0
     - matplotlib-base >=3.7.0
