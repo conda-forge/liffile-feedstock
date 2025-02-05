@@ -1,5 +1,5 @@
 {% set name = "liffile" %}
-{% set version = "2025.2.2" %}
+{% set version = "2025.2.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/liffile-{{ version }}.tar.gz
-  sha256: 3336d952aba167bb485c01720cc37f9b7ad151cf6c5c39919aca3888364bba8f
+  sha256: ec2c879aa0d9877fa95fbba29b29a390d897a2ff5fec0f1285b87e39fe4387d9
 
 build:
   entry_points:
@@ -25,6 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
+    - imagecodecs >=2024.12.30
     - tifffile >=2024.8.30
     - xarray >=2023.4.0
     - matplotlib-base >=3.7.0
@@ -41,7 +42,7 @@ test:
 
 about:
   home: https://www.cgohlke.com
-  summary: Read Leica image files (LIF)
+  summary: Read Leica image files (LIF, LOF, and XLIF)
   license: BSD-3-Clause
   license_file: LICENSE
 
