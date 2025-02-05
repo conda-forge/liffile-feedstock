@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/liffile-{{ version }}.tar.gz
-  sha256: f5295a6d6c90df7cae6e87584940f6de1cf9832a8eb582cdec10b3e361ef9714
+  sha256: ec2c879aa0d9877fa95fbba29b29a390d897a2ff5fec0f1285b87e39fe4387d9
 
 build:
   entry_points:
