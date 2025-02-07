@@ -7,7 +7,7 @@ Home: https://www.cgohlke.com
 
 Package license: BSD-3-Clause
 
-Summary: Read Leica image files (LIF)
+Summary: Read Leica image files (LIF, LOF, and XLIF)
 
 Current build status
 ====================
@@ -144,7 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@cgohlke](https://github.com/cgohlke/)
-
-
-<!-- dummy commit to enable rerendering -->
 
