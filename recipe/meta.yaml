@@ -1,5 +1,5 @@
 {% set name = "liffile" %}
-{% set version = "2025.2.10" %}
+{% set version = "2025.2.20" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/liffile-{{ version }}.tar.gz
-  sha256: fc57242298056c5e3099875d85503d600e8920d5c9377b35ed7aeb8002f7483d
+  sha256: b3451b9b6c7077e3e8a449a36de5ed3cc5365a818c7d9ecf3972469ce96086ea
 
 build:
   entry_points:
