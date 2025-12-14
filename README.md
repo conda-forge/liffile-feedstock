@@ -7,7 +7,7 @@ Home: https://www.cgohlke.com
 
 Package license: BSD-3-Clause
 
-Summary: Read Leica image files (LIF, LOF, and XLIF)
+Summary: Read Leica image files (LIF, LOF, XLIF, XLCF, XLEF, and LIFEXT)
 
 Current build status
 ====================
