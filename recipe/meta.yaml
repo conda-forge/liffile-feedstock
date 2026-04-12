@@ -1,6 +1,6 @@
 {% set name = "liffile" %}
 {% set version = "2026.4.11" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
