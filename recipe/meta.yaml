@@ -1,5 +1,5 @@
 {% set name = "liffile" %}
-{% set version = "2026.11.8" %}
+{% set version = "2026.11.12" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/liffile-{{ version }}.tar.gz
-  sha256: a699f04fc25000791b9298b0a92b6aae09aaf996f3b6a05d0371b1539995fd75
+  sha256: a405c45a04f38150a7f3631076715943708164f1e9140ac5fb3dbb1a88363484
 
 build:
   entry_points:
